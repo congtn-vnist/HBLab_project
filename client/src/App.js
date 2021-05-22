@@ -11,6 +11,7 @@ function App() {
     position:'absolute',
     width: '100%',
     right: 0,
+    backgroundColor: '#f2f2f2',
   })
   
   const handleShowSidebar = (width) => {
@@ -23,7 +24,7 @@ function App() {
     <>
       <Router>
         <Navbar showSidebar = {handleShowSidebar}/>
-        <div className = "content right" style={contentStyle}>
+        <div className = "content " style={contentStyle}>
         <Switch>
           <Route path='/' exact component={List} />
           <Route path='/create' component={Create} />

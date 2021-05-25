@@ -22,4 +22,5 @@ export const SidebarData = [
     icon: <MdIcons.MdUpdate />,
     cName: 'nav-text'
   },
+
 ];

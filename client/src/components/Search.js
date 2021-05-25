@@ -52,12 +52,13 @@ class Search extends Component {
         </select>
         </div>
         <br></br>
-        <button onClick={this.onHandleSubmit} type="submit">
-          Filter
-        </button>
         <button onClick={this.onHandleClear} >
           Clear
         </button>
+        <button onClick={this.onHandleSubmit} type="submit">
+          Filter
+        </button>
+
       </form>
     );
   }

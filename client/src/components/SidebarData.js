@@ -22,5 +22,11 @@ export const SidebarData = [
     icon: <MdIcons.MdUpdate />,
     cName: 'nav-text'
   },
+  {
+    title: 'Search request',
+    path: '/search',
+    icon: <MdIcons.MdSearch />,
+    cName: 'nav-text'
+  },
 
 ];

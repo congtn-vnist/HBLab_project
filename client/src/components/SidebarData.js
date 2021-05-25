@@ -22,10 +22,5 @@ export const SidebarData = [
     icon: <MdIcons.MdUpdate />,
     cName: 'nav-text'
   },
-  {
-    title: 'login',
-    path: '/login',
-    icon: <MdIcons.MdUpdate />,
-    cName: 'nav-text'
-  },
+
 ];

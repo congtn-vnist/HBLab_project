@@ -1,5 +1,6 @@
 import React from 'react';
 import { Table, Form, Pagination } from 'react-bootstrap';
+import Search from './Search';
 import { HiFilter } from 'react-icons/hi';
 const ListDataTable = [
   {
@@ -50,15 +51,9 @@ const ListRequests = () => {
         <h1 className="text-center my-3">List requests</h1>
         <div className="mx-5">
           <div className="mb-3">
-            <Form.Control as="select" defaultValue="no-value">
-              <option value="no-value" disabled>
-                Filter option
-              </option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </Form.Control>
+            
+              <Search />
+            
           </div>
           <div
             className="table"

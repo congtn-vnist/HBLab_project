@@ -6,6 +6,7 @@ import List from './pages/List'
 import Create from './pages/Create'
 import Update from './pages/Update'
 import Login from './pages/Login';
+import RequestDetail from './components/RequestDetail';
 
 
 function App() {

@@ -35,7 +35,8 @@ function Navbar(props) {
           <Link to='#' className='user'>
             <MdIcons.MdAccountCircle />
           </Link>
-       
+
+
         </div>
         <div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
@@ -55,7 +56,7 @@ function Navbar(props) {
                 </li>
               );
             })}
-          </ul>
+         </ul>
         </nav>
         </div>
       </IconContext.Provider>

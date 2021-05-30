@@ -4,9 +4,7 @@ class Search extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-      city: ""
-    };
+
 
     this.onHandleChange = this.onHandleChange.bind(this);
     this.onHandleSubmit = this.onHandleSubmit.bind(this);
@@ -20,21 +18,18 @@ class Search extends Component {
           id="nameInput"
           onChange={this.onHandleChange}
           placeholder="name"
-          value={this.state.city}
           type="text"
         />
         <input
           id="contentInput"
           onChange={this.onHandleChange}
           placeholder="content"
-          value={this.state.city}
           type="text"
         />
         <input
           id="dateInput"
           onChange={this.onHandleChange}
           placeholder="date"
-          value={this.state.city}
           type="date"
         />
         <select id="status">

@@ -22,6 +22,11 @@ export const SidebarData = [
     icon: <MdIcons.MdUpdate />,
     cName: 'nav-text'
   },
- 
+  {
+    title: 'Request detail',
+    path: '/request-detail',
+    icon: <FaIcons.FaClipboardList />,
+    cName: 'nav-text'
+  }
 
 ];

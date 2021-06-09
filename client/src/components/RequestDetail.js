@@ -5,10 +5,10 @@ return(
 <div class="container-md ms-5 mb-5 mt-5 border border-dark px-5 py-5"  >
     <div className='request-title'>
          
-            <h3>request title</h3>
+            <h3>Request title</h3>
         <div class="pe-3">
          <button type="button" class="btn btn-primary float-right">
-            InProgess 
+            In Progess 
         </button>
         </div>
     </div>
@@ -42,8 +42,8 @@ return(
         <div class='pt-5'><h5>comment(2)</h5></div>
          <div class='border border-dark py-3'>
          <div className='mx-3 my-3'>
-             <img></img>
-             <h5>author name</h5>
+             
+             <h5><img alt= "avatar"></img>author name</h5>
              <p>date</p>
              <p>comment content</p>
              <div>
@@ -51,8 +51,8 @@ return(
              </div>
          </div>
          <div className='mx-3 my-3'>
-             <img></img>
-             <h3>author name</h3>
+             
+             <h5><img alt= "avatar"></img>author name</h5>
              <p>date</p>
              <p>comment content</p>
          </div>

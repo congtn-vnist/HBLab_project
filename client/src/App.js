@@ -32,7 +32,7 @@ function App() {
           <Route path='/' exact component={List} />
           <Route path='/create' component={Create} />
           <Route path='/update' component={Update} />    
-            
+          <Route path='/request-detail' component={RequestDetail} />
         </Switch>
         </div>
       </Router>
